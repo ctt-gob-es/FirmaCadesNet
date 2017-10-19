@@ -59,12 +59,12 @@ namespace FirmaCadesNet
         /// <returns></returns>
         public SignatureDocument Sign(Stream input, SignatureParameters parameters)
         {
+            CheckParameters(parameters);
+
             if (input == null && parameters.PreCalculatedDigest == null)
             {
                 throw new Exception("Se necesita especificar el contenido a firmar");
             }
-
-            CheckParameters(parameters);
 
             return ComputeSignature(input, parameters, null);
         }
