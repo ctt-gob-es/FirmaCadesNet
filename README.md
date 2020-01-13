@@ -1,6 +1,8 @@
 FirmaCadesNet
 =============
 
+:red_circle: **Atención**: este proyecto se encuentra sin mantenimiento.
+
 INTRODUCCIÓN
 -------------
 FirmaCadesNet es una librería desarrollada en C# para la generación de firmas CAdES realizada por el Dpto. de Nuevas Tecnologías de la Concejalía de Urbanismo del Ayuntamiento de Cartagena.
